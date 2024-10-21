@@ -1,0 +1,1 @@
+from .goodluck import GoodLuck
