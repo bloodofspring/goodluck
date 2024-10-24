@@ -1,6 +1,7 @@
 import random
 import time
 import tqdm
+import os
 from colorama import Fore, init
 
 from errors import ChanceError
@@ -16,6 +17,7 @@ class GoodLuck:
 
     def try_(self) -> None:
         """Сделать попытку"""
+        os.system("clear")
         init(autoreset=True)
         print(Fore.LIGHTYELLOW_EX + "ЗАГРУЖАЕМ ТВОЮ УДАЧУ...")
 
